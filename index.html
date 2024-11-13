@@ -7,10 +7,11 @@
     <link href="styles/style.css" rel="stylesheet">
 </head>
 <body>
+  <div id="foreground">
     <!--le titre(en-tête) du site-->
-    <header><h1>Vita OMORI</h1></header>
+    <span><img id="logo" src="Sans titre.png"></img><button class="sectionAccess" id="#desc">Description du produit</button><button class="sectionAccess" id="#pjfiles">fichiers de projet</button><button class="sectionAccess" id="#demofiles">lien de la démo</button><button class="sectionAccess" id="#socialNetworks">me suivre</button></span>
     <br>
-    <video src="OMORI.mp4" controls></video>
+    <video src="OMORI.mp4" controls autoplay></video>
     <br>
     <!--sommaire-->
     <nav>
@@ -23,7 +24,7 @@
       </ul>
     </nav>
     <!--articles-->
-    <section>
+    <section id="desc">
       <h2>Qu'est donc Vita OMORI</h2>
       <p>
         Vita OMORI est un portage du jeu OMORI sur playstation vita utilisant le moteur godot.
@@ -37,19 +38,19 @@
         liens de téléchargement de la version officielle du jeu<a href="https://store.steampowered.com/app/1150690/OMORI/">ici</a>
       </p>
     </section>
-    <section>
+    <section id="pjfiles">
       <h2>Code,documentation ,fichiers du jeu</h2>
       <p>
         Le code et l'ensemble des fichiers de développement du projet est disponible <a href="vita omori project files.rar"> ici</a>
       </p>
     </section>
-    <section>
+    <section id="demofiles">
       <h2>lien de téléchargement de la version de démo</h2>
       <p>
-        version démo de vita omori : <a href="c:\Users\aness\Documents\vpks omori\kvk.vpk">Télécharger</a>
+        version démo de vita omori : <a href="c:\Users\aness\Documents\projet\OMORI PSVITA EDITION.vpk">Télécharger</a>
       </p>
     </section>
-    <section id="5">
+    <section id="socialNetworks">
       <h2>Où me suivre ?</h2>
       <p>
         github personnel : <a href="https://github.com/azergame">Cliquez ici !</a>
@@ -57,5 +58,7 @@
     </section>
     <!--pied de page-->
     <footer>infos légales absentes</footer>
+    <script src="index.js"></script>
+  </div>
 </body>
 </html>
