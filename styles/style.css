@@ -1,33 +1,41 @@
-h1
-{
-color: white;
-font-family: "Arial";
-text-align: center;
-margin: 0 auto;
-padding: 0px 20px 40px 40px;
-border: 5px solid black;
-background-color: rgb(53, 53, 53);
-}
-html
-{
-    background-image: url("bg1.png"); 
-    margin: 0 auto;
-    padding: 10px 20px 20px 20px;
-}
-body
-{
-    margin: 0 auto;
-    padding: 0px 20px 20px 20px;
-    border:5px solid black;
+button{
     background-color: grey;
+    height: 50px;
+    border: 5px solid black;
+    margin-bottom: 50px;
 }
-h2, li, p, footer
-{
-    color:white;
+
+button:hover{
+    background-color:white;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+#logo{
+    height: 45px;
+    position: relative;
+    bottom: 2px;
+    border: 5px solid black;
+}
+
+h2,p,footer,li{
     font-family: Arial;
 }
 
-video
-{
-    text-align: center;
+span{
+    list-style: none;
+    display: flex;
+    background-color: white;
+}
+
+body{
+    margin: 50px;
+    padding: 50px;
+    border: 5px solid black;
+}
+
+video{
+    border: 5px solid black;
+    padding: 30px;
+    margin-left: 90px;
 }
